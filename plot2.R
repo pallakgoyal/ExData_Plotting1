@@ -19,6 +19,6 @@ Irving_ML_feb1$DateTime <- as.POSIXct(datetime)
 ##open png file
 png("./plot2.png")
 ##draw plot
-with(Irving_ML_feb1, plot(Global_active_power ~ DateTime, type = "l", ylab = "Global Active POwer (kilowatts)", xlab = ""))
+with(Irving_ML_feb1, plot(Global_active_power ~ DateTime, type = "l", ylab = "Global Active Power (kilowatts)", xlab = ""))
 ##closing the graphic 
 dev.off()
